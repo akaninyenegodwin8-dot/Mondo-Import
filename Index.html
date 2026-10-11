@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondo Imports</title>
+  <link rel="stylesheet" href="Style.css">
+  </head>
+
+<>
+
+    <header>
+    <h1>MONDO IMPORTS</h1>
+    <p>Quality Products From Around The World</p>
+</header>
+
+<nav>
+    <a href="Index.html">Home</a>
+    <a href="About.html">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+    <h2>Welcome to Mondo Imports</h2>
+    <p>Discover our collection of quality products.</p>
+
+    <section id="products">
+    <h2>Our Products</h2>
+    <p>Explore our premium imported products.</p>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600" alt="Smart Watch">  
+        <h3>Smart Watch</h3>
+        <p>Price: ₦25,000</p>
+        <button onclick="orderProduct('Smart Watch')">
+            Order Now
+        </button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600" alt="Wireless Headphones">
+        <h3>Wireless Headphones</h3>
+        <p>Price: ₦18,000</p>
+        <button onclick="orderProduct('Wireless Headphones')">
+            Order Now
+        </button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="Fashion Sneakers">
+        <h3>Fashion Sneakers</h3>
+        <p>Price: ₦35,000</p>
+        <button onclick="orderProduct('Fashion Sneakers')">
+            Order Now
+        </button>
+    </div>
+    </section>
+    <h2 id="contact">Contact Us</h2>
+    <p>Email: akaninyenegodwin8@gmail.com</p>
+
+</body>
+  <script>
+function orderProduct(product) {
+    alert("Thank you for your interest in " + product + "! Please contact us to place your order 09044410454.");
+}
+  </script>
+</html>
